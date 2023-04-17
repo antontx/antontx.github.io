@@ -21,7 +21,7 @@ body {
     margin-bottom: 10px;
   }
   
-  button, a [class*="fa-"] {
+  a [class*="fa-"] {
     background-color: transparent;
     color: #ffffff;
     border: none;
