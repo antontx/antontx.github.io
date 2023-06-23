@@ -60,7 +60,7 @@ footer {
   text-align: center;
 }
 
-.hyperlink {
+body main a {
   text-decoration: none;
   font-weight: bold;
   color: var(--tertiary-color);
