@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-            <html>
-                <head>
-                    <title>Deep Learning</title>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <link rel="stylesheet" type="text/css" href="style.css">
-                    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Spline+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-                </head>
-                <body>
-                    <main>
-                    <h1>Exploring Deep Learning: How Neural Networks Can Be Used to Recognize Handwritten Digits</h1>
+<html>
+    <head>
+        <title>Deep Learning</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Spline+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<body>
+<main>
+  <h1>Deep Learning</h1>
 
-<h2>Abstract</h2>
+  <h2>Abstract</h2>
 
 <p>Deep learning offers us an alternative way to approach problem-solving that differs from traditional algorithmic methods. Instead of telling the algorithm what to do, one can just show it lots of examples. This can significantly reduce development time, as it eliminates the need for complex logical rules and patterns. Furthermore, it makes it easier to scale and customize the product because just modifying the training data enables a neural network to learn and adapt new behaviors efficiently.</p>
 
@@ -19,32 +19,16 @@
 
 <p>Furthermore, the use of statistical instead of logical methods to analyze and solve problems makes it possible to quickly solve tasks that would have required significant programming effort using conventional approaches like speech, object, or handwriting recognition, which is what I will focus on in this paper.</p>
 
-<p>Our approach involves revisiting the theoretical background of deep learning and its major components in <a href="#theory">part 1</a>, followed by the application of these concepts to model and train a deep neural network capable of recognizing handwritten digits from scratch in <a href="#praxis">part 2</a>.</p>
+<p>Our approach involves revisiting the theoretical background of deep learning and its major components in part 1, followed by the application of these concepts to model and train a deep neural network capable of recognizing handwritten digits from scratch in part 2.</p>
 
-<p><a id="theory"></a></p>
 
-<h2>What is a neural network and how does it work?</h2>
 
-<h3>Biological motivation</h3>
-
-<p>In order to develop an intuitive understanding of artificial neural networks, it is beneficial to briefly explore the biological background of neural networks and the learning processes that occur in the human brain. This exploration helps to establish a direct connection between the biological foundation and the understanding of artificial neural networks (ANN’s).</p>
-
-<p>The human brain consists of approximately 86 billion neurons which are densely connected to thousands of other neurons. These connections, called synapses, get strengthened when signals are repeatedly transmitted between them. This long-lasting amplification of synaptic transmissions is called <em>long-term potentiation</em> (LTP), and is the cellular and molecular foundation of learning. Through continuous repetition of experiences and actions certain networking patterns are formed and new synapses are created or intensified while ones that were used less get dismantled over time. For example, if someone learns a new skill, such as playing the piano, certain synapses in their brain will become stronger and more efficient, allowing them to play the piano better over time. This ability to form new connections and adjust existing connections based on their importance is called <em>neuroplasticity</em>. <a href="#references">[Groß et al. 2021]</a></p>
-
-<p>Especially the idea of weighted connections between neurons in a network allows for the creation of complex artificial neural networks that can learn from data, recognize patterns, and make predictions, making it a fundamental concept for artificial intelligence. For example, a deep neural network used for image recognition might have hundreds of thousands or even millions of neurons arranged in layers, with each neuron connected to many others through weighted connections. By adjusting these weights during training, the network can learn to recognize patterns in images, such as identifying faces or objects. While modern ANN’s are inspired by biological neural networks, it is important to note that they only loosely model the neurons in brains and do not completely mirror biological learning processes <a href="#references">[Mitchell 1997, p. 82]</a>. ANN’s for instance have fixed structures instead of being dynamic and do often rely on supervised learning [Section \ref{sec:ANN} \&amp; \ref{sec:training}]. Furthermore, the actual process of adjusting the weights also differs but we will focus more on that in sections \ref{sec:gradient_descent} \&amp; \ref{sec:backprop}. !TODO</p>
-
-<p><a id="praxis"></a></p>
-
-<h2>Handwritten Digit Recognition through Neural Networks</h2>
-
-<p><a id="references"></a></p>
-
-<h2>References</h2>
-
-                    </main>
-                    <footer>
-                        <p>&copy; 2023 Anton K.  All rights reserved.</p>
-                    </footer>
-                </body>
-
-            </html>
+  <a href="DeepLearningArxiv.pdf" download>
+    <button>Download PDF</button>
+  </a>
+</main>
+<footer>
+<p>&copy; 2023 Anton K.  All rights reserved.</p>
+</footer>
+</body>
+</html>
